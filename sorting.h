@@ -10,7 +10,7 @@ void swap(int &a, int &b) {
 
 void display(int *a, int N) {
     for (int i = 0; i < N; i++) {
-        // Now 'cout' and 'setw' will be recognized!
+    
         cout << setw(5) << a[i];
     }
     cout << endl;
